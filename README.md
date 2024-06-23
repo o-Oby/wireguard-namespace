@@ -77,7 +77,7 @@ sudo apt update && sudo apt install -y wireguard wireguard-tools iptables resolv
 2. Create a network namespace if it doesn't already exist.
 3. Create a veth pair if it doesn't already exist.
 4. Retrieve and assign IP addresses to the veth interfaces.
-5. Set DNS to 8.8.8.8 in the VPN namespace.
+5. Set DNS to 1.1.1.1 in the VPN namespace.
 6. Setup the WireGuard interface with a retry mechanism.
 7. Configure routing and apply iptables rules for NAT.
 8. Verify DNS configuration and test connectivity.
